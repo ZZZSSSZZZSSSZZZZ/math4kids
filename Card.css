@@ -1,0 +1,25 @@
+.card{
+    margin: 4px;
+    padding: 0px;
+    border-top: 2px solid orangered;
+  
+    font-size: 32px;
+    color: #FFF;  
+}
+.card:hover{
+    border-top: 2px solid #FFF;
+    color: orangered;
+    cursor: pointer;
+}
+h1{
+    margin: 4px;
+    margin-top: 0px;
+}
+.f{
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
+.four{
+    color: orangered;
+}

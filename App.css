@@ -1,0 +1,10 @@
+.App {
+  min-height: 100%;
+  background-color: rgba(00, 99, 99, 1);
+  text-align: center;
+  width: 100%;
+}
+.inline{
+  display:flex;
+  justify-content: flex-start;
+}
