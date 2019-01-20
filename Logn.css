@@ -1,0 +1,67 @@
+.Ltitle{
+    color: orangered;
+}
+.Logn{
+    display:flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+.LPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:auto;    
+}
+.Lpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 600px;
+    height: 96%;  
+    border: 1px solid white;
+    border-radius: 4px;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: center;
+    background-color: rgba(00, 99, 99, 1);
+}
+.Lp{
+    color: white;
+    font-size: 16px;
+}
+.input{
+   
+    text-align: center;
+    width: 50%;
+    border: 1px solid white;
+    border-radius: 4px;
+    color:  #444;
+    
+    font-weight: bolder;
+}
+.Lb{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.Lbutton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 15%;
+    height: 2.5%;
+    border-radius: 3px;
+    background-color: white;
+    padding-bottom: 1%;
+    color: orangered;
+    text-align: center;
+    
+}
+.Lbutton:hover{
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}

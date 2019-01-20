@@ -2,9 +2,9 @@ import React from 'react';
 
 import './Card.css';
 
-const Card = () =>  {
+const Card = (props) =>  {
     return(
-        <div className='card'>
+        <div className='card' onClick={props.Show.bind(this,5)}>
             
             <h1>
                {'|V|'}

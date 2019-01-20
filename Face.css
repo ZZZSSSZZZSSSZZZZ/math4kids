@@ -1,0 +1,15 @@
+.Face{
+    margin: 4px;
+    font-size: 12px;
+    color: rgba(0, 99, 99, 1);  
+    transition: 1s;
+}
+.Face:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.Face1{
+    border: 2px solid orangered;
+    box-shadow: 2px 3px 2px black;
+    width: 400px;
+}

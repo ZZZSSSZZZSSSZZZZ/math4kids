@@ -1,5 +1,4 @@
 .App {
-  min-height: 100%;
   background-color: rgba(00, 99, 99, 1);
   text-align: center;
   width: 100%;
@@ -7,4 +6,53 @@
 .inline{
   display:flex;
   justify-content: flex-start;
+}
+Records{
+  border: 1px solid rgba(00, 99, 99, 1);
+
+}
+
+.scrolla{
+  overflow:auto;
+  color: black;
+  border: 1px solid orangered;
+  height: 50px;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: auto;
+}
+.GTITLE{
+  border-bottom: 1px solid orangered;
+  color: orangered;
+}
+.input{
+  outline: none;
+}
+
+.Gb2{
+    display: flex;
+    justify-content: space-around;
+    background-color:  orangered;
+    color: white;
+    height: max-content;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.Gb3{
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgba(00, 99, 99, 1);
+    color: white;
+    height: max-content;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
 }

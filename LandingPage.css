@@ -6,7 +6,7 @@
 .LPage{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     height:auto;
 }
 .Lpage{
@@ -15,7 +15,6 @@
     justify-content: space-between;
     width: 600px;
     height: 98%;
-    margin-top: 20px;
     border-radius: 4px;
     padding-right: 5px;
     padding-left: 5px;
@@ -23,6 +22,7 @@
 }
 p{
     color: #fff;
+    padding-bottom: 5px;
 }
 .color{
     color: orangered;
